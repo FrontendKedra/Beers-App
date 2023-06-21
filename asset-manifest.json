@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.js": "/Beers-App/static/js/main.a4505ffb.js",
+    "main.js": "/Beers-App/static/js/main.d0c23b78.js",
     "static/js/787.cbfdfc4a.chunk.js": "/Beers-App/static/js/787.cbfdfc4a.chunk.js",
+    "static/media/missingBeer.png": "/Beers-App/static/media/missingBeer.7df82a78752a52e435ea.png",
     "index.html": "/Beers-App/index.html",
     "static/media/danger.svg": "/Beers-App/static/media/danger.a514e9c64a76d5cf149bdd7443857605.svg",
     "static/media/nextArrow.svg": "/Beers-App/static/media/nextArrow.50e0a011c9c836d92ceaf052a9447368.svg",
     "static/media/previousArrow.svg": "/Beers-App/static/media/previousArrow.95a980d03aa24878b4b68139a4fd2714.svg",
     "static/media/icon-spinner.svg": "/Beers-App/static/media/icon-spinner.88a075cf3a7f1af15999cb03bb3a0360.svg",
-    "main.a4505ffb.js.map": "/Beers-App/static/js/main.a4505ffb.js.map",
+    "main.d0c23b78.js.map": "/Beers-App/static/js/main.d0c23b78.js.map",
     "787.cbfdfc4a.chunk.js.map": "/Beers-App/static/js/787.cbfdfc4a.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.a4505ffb.js"
+    "static/js/main.d0c23b78.js"
   ]
 }
