@@ -13,7 +13,7 @@ export interface DetailsPayload {
 }
 
 export interface ListPayload {
-  payload: string
+  payload: string;
 }
 
 export interface BeerTileProps {

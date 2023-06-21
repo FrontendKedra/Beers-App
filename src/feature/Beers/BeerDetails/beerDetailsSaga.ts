@@ -11,7 +11,7 @@ import {
 
 function* fetchBeerDetailsHandler({ payload: id }: DetailsPayload) {
   const params = {
-    id
+    id,
   };
 
   yield delay(300);

@@ -40,6 +40,22 @@ export const Title = styled.h1`
   margin: 0;
   font-size: 32px;
 
+  @media (max-width: ${({ theme }) => theme.breakpoints.largest}) {
+    font-size: 28px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.large}) {
+    font-size: 24px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.medium}) {
+    font-size: 20px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
+    font-size: 16px;
+  }
+
   &::first-letter {
     font-size: 48px;
 
@@ -58,21 +74,5 @@ export const Title = styled.h1`
     @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
       font-size: 28px;
     }
-  }
-
-  @media (max-width: ${({ theme }) => theme.breakpoints.largest}) {
-    font-size: 28px;
-  }
-
-  @media (max-width: ${({ theme }) => theme.breakpoints.large}) {
-    font-size: 24px;
-  }
-
-  @media (max-width: ${({ theme }) => theme.breakpoints.medium}) {
-    font-size: 20px;
-  }
-
-  @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
-    font-size: 16px;
   }
 `;

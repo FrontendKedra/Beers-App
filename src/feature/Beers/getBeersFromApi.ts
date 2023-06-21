@@ -9,7 +9,7 @@ export const getBeersFromApi = async <ApiType>(
   const apiUrl = id
     ? `${url}/${id}`
     : `${url}?${new URLSearchParams(otherParams)}`;
-  
+
   const response = await fetch(apiUrl);
 
   if (!response.ok) {
