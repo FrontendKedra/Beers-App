@@ -1,11 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { RootState } from "../../../store";
-import { ApiResponse } from "../../../interfaces/apiResponseInterface";
-
-interface BeerListState {
-  status: string;
-  beer: ApiResponse[];
-}
+import { BeerListState } from "../../../interfaces/generalInterfaces";
 
 const initialState: BeerListState = {
   status: "initial",

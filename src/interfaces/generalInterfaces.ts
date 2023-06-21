@@ -1,4 +1,4 @@
-import { Ingredients } from "./apiResponseInterface";
+import { ApiResponse, Ingredients } from "./apiResponseInterface";
 
 export interface Id {
   id: string;
@@ -34,3 +34,13 @@ export interface DetailsTileProps {
 }
 
 export type UsePageNumber = [number, (pageNumber: number) => void];
+
+export interface BeerDetailsState {
+  status: string;
+  beerDetails: ApiResponse[];
+}
+
+export interface BeerListState {
+  status: string;
+  beer: ApiResponse[];
+}
