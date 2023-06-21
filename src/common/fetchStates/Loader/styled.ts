@@ -4,7 +4,24 @@ import { ReactComponent as iconSpinner } from "./icons/icon-spinner.svg";
 export const Container = styled.div`
   display: grid;
   justify-items: center;
+  gap: 24px;
   margin-top: 25vh;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.largest}) {
+    gap: 20px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.large}) {
+    gap: 18px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.medium}) {
+    gap: 16px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
+    gap: 12px;
+  }
 `;
 
 export const LoadingParagraph = styled.p`
