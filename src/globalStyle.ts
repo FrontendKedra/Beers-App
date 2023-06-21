@@ -12,6 +12,6 @@ export const GlobalStyle = createGlobalStyle`
     body {
         word-break: break-word;
         background: #F5F5FA;
-        font-family: 'Poppins', sans-serif; 
+        font-family: 'Poppins', sans-serif;
     }
 `;
