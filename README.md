@@ -22,7 +22,7 @@ https://frontendkedra.github.io/Beers-App/
 ![Recording 2023-06-21 at 21 05 45](https://github.com/FrontendKedra/Beers-App/assets/109352604/48cf002e-4fa7-4f18-a898-a06dc222b038)
 
 
-## Tools
+## Tools Used
 
 - React
 - Typescript
