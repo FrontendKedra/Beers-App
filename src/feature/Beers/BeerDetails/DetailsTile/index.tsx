@@ -14,6 +14,7 @@ import {
   Name,
   Tagline,
 } from "./styled";
+import missingBeer from "../../../../common/images/missingBeer.png";
 
 export const DetailsTile = ({
   image_url,
@@ -27,7 +28,10 @@ export const DetailsTile = ({
   return (
     <Container>
       <Details>
-        <Image src={image_url} alt={`Image of ${name}`} />
+        <Image
+          src={!!image_url ? image_url : missingBeer}
+          alt={`Image of ${name}`}
+        />
         {!!name && <Name>{name}</Name>}
         {!!tagline && <Tagline>{tagline}</Tagline>}
         {!!description && <Description>{description}</Description>}

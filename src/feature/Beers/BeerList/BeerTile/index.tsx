@@ -9,13 +9,17 @@ import {
   Tagline,
 } from "./styled";
 import rhombus from "./icons/rhombus.png";
+import missingBeer from "../../../../common/images/missingBeer.png";
 
 export const BeerTile = ({ id, name, tagline, image_url }: BeerTileProps) => {
   return (
     <BeerLink to={`/beer/details/${id}`}>
       {!!name && !!tagline && (
         <Container>
-          <Image src={image_url} alt={`Image of ${name}`} />
+          <Image
+            src={!!image_url ? image_url : missingBeer}
+            alt={`Image of ${name}`}
+          />
           <InfoBox>
             {!!name && <Name>{name}</Name>}
             <RhombusIcon src={rhombus}></RhombusIcon>
