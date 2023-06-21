@@ -1,3 +1,35 @@
+# Beers App
+
+## Description
+
+A small project with ability to search through large number of beers from a list on a main page. Contains a pagination.
+It allows user to access a page with details about a specificly chosen beer.
+
+## Setting up
+
+To correctly set up a project you must:
+- Clone the repository to the desired directory:
+You can do that using "git clone `https://github.com/FrontendKedra/Beers-App.git`"  
+- Run npm install command
+- Run npm start command
+
+## Demo
+
+https://frontendkedra.github.io/Beers-App/
+
+## Preview
+
+![Recording 2023-06-21 at 21 05 45](https://github.com/FrontendKedra/Beers-App/assets/109352604/48cf002e-4fa7-4f18-a898-a06dc222b038)
+
+
+## Tools
+
+- React
+- Typescript
+- Redux Toolkit
+- Redux-Saga
+- Styled-components
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
