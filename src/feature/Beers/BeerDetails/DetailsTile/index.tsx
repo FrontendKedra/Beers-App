@@ -53,7 +53,7 @@ export const DetailsTile = ({
                     key={`${amount.value}, ${amount.unit}, ${name}, ${attribute}`}
                   >
                     {name}, {amount.value} {amount.unit}, {attribute}, <br />
-                    <AddAt>Add at: {add}</AddAt>
+                    <AddAt>Add: {add}</AddAt>
                   </Ingredient>
                 ))}
               </IngredientsList>
