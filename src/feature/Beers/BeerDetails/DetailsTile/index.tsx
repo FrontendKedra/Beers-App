@@ -49,7 +49,9 @@ export const DetailsTile = ({
               <IngredientsList>
                 <IngredientCategory>Hops:</IngredientCategory>
                 {ingredients.hops.map(({ name, amount, add, attribute }) => (
-                  <Ingredient key={amount.value}>
+                  <Ingredient
+                    key={`${amount.value}, ${amount.unit}, ${name}, ${attribute}`}
+                  >
                     {name}, {amount.value} {amount.unit}, {attribute}, <br />
                     <AddAt>Add at: {add}</AddAt>
                   </Ingredient>
@@ -60,7 +62,7 @@ export const DetailsTile = ({
               <IngredientsList>
                 <IngredientCategory>Malt:</IngredientCategory>
                 {ingredients.malt.map(({ name, amount }) => (
-                  <Ingredient key={amount.value}>
+                  <Ingredient key={`${amount.value}, ${amount.unit}, ${name}`}>
                     {name}, {amount.value} {amount.unit}
                   </Ingredient>
                 ))}
